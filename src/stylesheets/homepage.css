@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.homepage-component {
+  color: white;
+  padding: 100px 10px;
+  background:linear-gradient(-45deg, #23a6d5, #f4377340, #f4377340, #23a6d5), url("https://thumbs.dreamstime.com/b/forest-river-graphic-black-white-landscape-sketch-illustration-vector-97653947.jpg");
+	background-size: contain;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.greeting {
+  color: rgba(200, 200, 200, 0.8);
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.homepage-profession-title {
+  color: #f43774;
+}
+
+.homepage-profession-title::before {
+  content: "Front End Developer";
+  animation: animate infinite 6s;
+}
+
+@keyframes animate {
+  0% {
+    content: "Fivem Developer";
+  }
+
+  33% {
+    content: "Front-End Developer";
+  }
+
+  66% {
+    content: "Unity Developer";
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .homepage-component {
+    padding: 100px 20px;
+  }
+
+  .hero-title {
+    font-size: 60px;
+  }
+}
+
+

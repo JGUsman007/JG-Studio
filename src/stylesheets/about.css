@@ -1,0 +1,101 @@
+.about-me-section {
+  padding: 100px 10px;
+  background: rgb(25, 25, 25);
+}
+
+.about-me-picture {
+  height: 500px;
+  background: url(../images/about/Usman.gif);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hammas-about-pic {
+  height: 100%;
+}
+
+.about-me-picture-overlay {
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.hammas-about-pic,
+.about-me-picture-overlay,
+.about-me-picture {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.about-me-title {
+  text-align: center;
+  
+  background: linear-gradient(to right, #35a3f3 50%, #f33474 0%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 5s linear infinite;
+
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.about-me-par {
+  color: rgba(198, 201, 216, 0.75);
+}
+
+button#a0 {
+  width: 68px;
+}
+
+button#a1 {
+  width: 74px;
+}
+
+button#a2 {
+  width: 154px;
+}
+
+@media screen and (max-width: 530px) {
+  .about-me-picture {
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-section {
+    display: flex;
+  }
+
+  .hammas-about-pic,
+  .about-me-picture-overlay {
+    height: 100%;
+    width: 100%;
+  }
+
+  .about-me-details {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about-me-title {
+    font-size: 60px;
+  }
+
+  .about-me-par {
+    font-size: 18px;
+  }
+}

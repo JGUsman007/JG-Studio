@@ -1,0 +1,16 @@
+.logo-container {
+  width: 100%;
+  width: 100%;
+  background-image: url("https://cdn.discordapp.com/attachments/985595018800681000/1088274365059174400/jglogo_a.png");
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0);
+}
+
+@media screen and (min-width: 995px) {
+  .logo-container {
+    width: 211px;
+    height: 52px;
+  }
+}
