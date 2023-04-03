@@ -10,9 +10,9 @@
 
 ## Get Live Demo
 
-[Live Demo Link](https://hammas-portfolio.netlify.app/)
+[Live Demo Link](https://jgstudio-dev.netlify.app/)
 
-## Authors
+## Authors (My brother)
 
 👤 **HAMMAS BIN SALEEM**
 - GitHub: [@HAMMAS-SALEEM](https://github.com/HAMMAS-SALEEM)
